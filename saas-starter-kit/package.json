@@ -1,0 +1,41 @@
+{
+  "name": "launchfast-saas-starter",
+  "version": "1.0.0",
+  "description": "Production-ready Next.js 14 SaaS starter with Stripe, Auth, AI, Email, SEO — ship your SaaS in hours, not months",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "stripe:listen": "stripe listen --forward-to localhost:3000/api/webhooks/stripe"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@prisma/client": "^5.14.0",
+    "next-auth": "^4.24.0",
+    "stripe": "^15.0.0",
+    "@stripe/stripe-js": "^3.0.0",
+    "openai": "^4.47.0",
+    "resend": "^3.2.0",
+    "tailwindcss": "^3.4.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.379.0",
+    "framer-motion": "^11.0.0",
+    "react-hot-toast": "^2.4.0",
+    "zod": "^3.23.0",
+    "crisp-sdk-web": "^1.0.0"
+  },
+  "devDependencies": {
+    "prisma": "^5.14.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
